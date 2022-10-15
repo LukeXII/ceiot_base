@@ -10,6 +10,7 @@ class ViewMainPage {
             <span class="title">${device.name}</span>
             <p>id: ${device.device_id}</p>
             <p>key: ${device.key}</p>
+            <p>last temp: ${device.last_t}</p>
           </li>  
           `;
       }
